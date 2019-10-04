@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #2BACFF;
+    margin-botton: 100px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container h2{
+    text-align: center;
+    color: #333;
+}
+
+.container h3{
+    text-align: center;
+    color: #333;
+}
+
+
+.articulo{
+    margin-top: 40px;
+}
+
+.articulo img{
+    width: 340px;
+    height: 280px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+.articulo p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+    color: #333;
+}
+
+html.dark-mode{
+    filter: invert(100%);
+}
+
+html.dark-mode img{
+    filter: invert(100%);
+}
+
+.redes{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+    color: #2A2C40;
+}
